@@ -1,0 +1,224 @@
+/* ........................ Tag selectors..................*/
+a {
+  color: rgb(83, 66, 150);
+}
+
+a:hover {
+  color: rgb(137, 12, 12);
+}
+
+body {
+  background-color: #f0ebe3;
+  margin: 0;
+}
+
+h1 {
+  margin-block-start: 0%;
+}
+hr {
+  border-style: none;
+  border-top-style: groove;
+  border-width: 12px;
+  border-color: darkgray;
+}
+
+p {
+  font: italic small-caps bold 16px/2 cursive;
+  font-size: 18px;
+  margin: 10px;
+}
+ul {
+  height: 175px;
+  width: 300px;
+  margin: 5px;
+}
+li {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  width: 300px;
+}
+span {
+  color: brown;
+}
+
+/* ...................class selectors...................... */
+
+.listfont {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  align-self: center;
+}
+.listImage {
+  margin: 2px;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.center {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.background {
+  background-color: rgb(255, 255, 255);
+}
+.button {
+  width: 10em;
+  height: 5ex;
+  background-color: rgb(123, 109, 177);
+  border: 2px solid rgb(167, 34, 34);
+  border-radius: 25px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.button:hover {
+  background-color: rgb(173, 45, 45);
+}
+.hr-margin {
+  margin: 0%;
+}
+.h3 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: rgb(103, 103, 151);
+  font-size: 25px;
+  padding: 3px;
+  margin-block-end: 0%;
+  margin-block-start: 0%;
+  margin-right: 83%;
+  border: 2px solid rgb(90, 1, 1);
+}
+.h1-fan {
+  color: rgb(23, 21, 24);
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: rgb(103, 103, 151);
+  height: 50px;
+  margin-top: 0%;
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+.h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: rgb(103, 103, 151);
+  font-size: 25px;
+  padding: 3px;
+  margin-block-end: 0%;
+  margin-block-start: 0%;
+
+  border: 3px solid rgb(90, 1, 1);
+  text-align: center;
+  border-left: 0cm;
+  border-right: 0cm;
+}
+.h3-2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: rgb(103, 103, 151);
+  font-size: 25px;
+  padding: 3px;
+  margin-block-end: 0%;
+  margin-block-start: 0%;
+
+  border: 2px solid rgb(90, 1, 1);
+  text-align: center;
+}
+.bb {
+  width: 583px;
+}
+.box {
+  width: 1500px;
+  position: relative;
+}
+.position {
+  position: absolute;
+  width: 900px;
+  right: 23px;
+  top: 3px;
+  padding-left: 7px;
+}
+.logo {
+  position: absolute;
+  right: 50px;
+  top: 420px;
+  margin-top: 20px;
+}
+.image {
+  border: 3px solid rgb(90, 1, 1);
+  border-top: 0;
+}
+.m {
+  margin-top: 30px;
+}
+.image2 {
+  width: 577px;
+  height: 460px;
+  border: 3px solid rgb(90, 1, 1);
+  border-top: 0;
+  padding: 0%;
+}
+.container {
+  display: flex;
+  height: 470;
+}
+
+.container2 {
+  margin: auto 0 0 auto;
+}
+.logo-black {
+  margin-left: 32px;
+}
+.form {
+  margin: 5px;
+}
+
+/* /////////////////////////////////////////////////////////////////// */
+.red {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  position: absolute;
+}
+.blue {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(26, 34, 34);
+  position: absolute;
+  top: 200px;
+  right: 200px;
+}
+
+.yellow {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(95, 42, 122);
+  bottom: 0;
+  right: 0;
+}
+.cube {
+  position: relative;
+  width: 600px;
+  height: 600px;
+}
+
+/* ................ID selectors.................... */
+#heading {
+  color: rgb(23, 21, 24);
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: rgb(103, 103, 151);
+  margin-bottom: 0cm;
+  height: 45px;
+  margin-top: 0%;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  border: 4px solid rgb(90, 1, 1);
+  border-right: 0ch;
+  border-left: 0ch;
+}

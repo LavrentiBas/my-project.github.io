@@ -41,6 +41,14 @@ li {
 span {
   color: brown;
 }
+table {
+  border-style: groove;
+  border-spacing: 7px;
+}
+th,
+td {
+  border-style: groove;
+}
 
 /* ...................class selectors...................... */
 
